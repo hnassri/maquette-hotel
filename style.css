@@ -232,6 +232,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60px;
 }
 .footer-display {
     width: 1040px;
