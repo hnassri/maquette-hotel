@@ -19,7 +19,7 @@ header {
 }
 
 nav{
-    width: 60%;
+    width: 1040px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -120,6 +120,7 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    margin-top: 20px;
 }
 
 article {
@@ -166,4 +167,84 @@ article a, aside a  {
     border: 1px solid #f0f0f0;
     box-shadow: 2px 2px #f6f6f6;
 
+}
+
+/*
+    FOOTER
+*/
+.infos-section {
+    height: 240px;
+    align-items: center;
+}
+
+.info{
+    width: 240px;
+    height: 170px;
+    padding: 10px;
+    margin-right: 2px;
+    margin-bottom: 0;
+}
+
+aside li {
+    display: flex;
+}
+
+aside li p {
+    margin: 0;
+    width: 220px;
+}
+aside li em {
+    margin-bottom: 0;
+}
+aside li a {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+aside.info li {
+    margin-bottom: 10px;
+}
+
+.icone {
+    width: 28px;
+    height: 25px;
+    margin: 0;
+}
+
+h5 {
+    color: #6f6f6f;
+    margin: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/*
+    FOOTER
+*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-display {
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-display div p {
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+#copyright {
+    color: #8d8d8a;
 }
